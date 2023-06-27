@@ -6,6 +6,5 @@ function pass(){
     localStorage.setItem('emaiEntered',emailEntered);
 
 }
-var emailEntered = document.getElementById('email').value;
-console.log(localStorage.getItem(emailEntered));
+
 
